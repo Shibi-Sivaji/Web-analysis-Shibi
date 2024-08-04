@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+marquee {
+    color:deeppink
+}
+
+.container{
+    background-color: deeppink;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   margin-bottom:-17px;
+}
+
+.logo {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.callus{
+    padding-right: 20px;
+}
+  
+nav ul {
+    font-family: Impact;
+    font-weight: 200;
+    background-color: deeppink;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+li a {
+    color: #ffffff;
+}
+
+nav li :hover {
+color: rgb(242, 223, 16);
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+
+button {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(166, 217, 239);
+}
+
+button:hover {
+    background-color: pink;
+    border: 2px solid white;
+}
+
+.hero{
+    background-color: rgb(255, 255, 255);
+    margin: -30px;
+    padding: 30px;
+}
+
+.featured-products {
+    color: #ffffff;
+    background-color: deeppink;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.featured-products-title {
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h3{
+    color: white;
+    font-size:x-large;
+    padding-top: 20px;
+}
+
+.partner {
+    color: deeppink;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.partner-title {
+    text-align: center;
+}
+
+.partner-info-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* signup CSS */
+

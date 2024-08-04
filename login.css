@@ -1,0 +1,133 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;*/
+}
+
+
+marquee {
+    color:deeppink
+}
+
+.container{
+    font-size: large;
+    font-weight: 500;
+    background-color: deeppink;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   margin-bottom:-17px;
+}
+
+.logo {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.callus{
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+.search-bar{
+    button{
+        color:black;
+        background-color: #ffffff;
+    }
+    button hover{
+        color:pink;
+    }
+}
+nav ul {
+    font-family: Impact;
+    font-weight: 200;
+    background-color: deeppink;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+li a {
+    color: #ffffff;
+}
+
+nav li :hover {
+color: rgb(242, 223, 16);
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+
+button {
+    background-color: white;
+    border: 2px solid rgb(166, 217, 239);
+}
+
+button:hover {
+    background-color: rgb(250, 250, 250);
+    border: 2px solid black;
+}
+
+.container1 {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: deeppink;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid deeppink;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: deeppink;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ff69b4;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: deeppink;
+}
